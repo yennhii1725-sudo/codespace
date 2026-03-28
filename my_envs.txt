@@ -1,0 +1,12 @@
+
+# conda environments:
+#
+# * -> active
+# + -> frozen
+base                 *   /opt/conda
+env_assembly             /opt/conda/envs/env_assembly
+env_prokka               /opt/conda/envs/env_prokka
+env_qc                   /opt/conda/envs/env_qc
+env_rgi                  /opt/conda/envs/env_rgi
+env_virulence            /opt/conda/envs/env_virulence
+
