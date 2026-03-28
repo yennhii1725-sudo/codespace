@@ -12,6 +12,7 @@ conda config --add channels defaults
 conda config --add channels bioconda
 conda config --add channels conda-forge
 conda config --set channel_priority strict
+```
 
 ## Step 1: Quality Control (QC) Environment
 This environment is used for raw data trimming and quality assessment.
