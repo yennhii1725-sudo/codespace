@@ -66,6 +66,7 @@ conda activate env_prokka
 prokka --version
 ```
 ### VirulenceFinder
+```
 #### Installation:
 ```
 conda create -n env_virulence -c bioconda -c conda-forge virulencefinder -y
