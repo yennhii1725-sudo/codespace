@@ -24,7 +24,7 @@ conda create -n env_qc -c bioconda -c conda-forge fastqc fastp -y
 ### Verification:
 Activate the environment and check the versions:
 ```
-conda activate env_qC
+conda activate env_qc
 fastp --version
 fastqc --version
 ```
