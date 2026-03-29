@@ -77,6 +77,7 @@ conda create -n env_virulence -c bioconda -c conda-forge virulencefinder -y
 conda activate env_virulence
 
 conda list virulencefinder
+
 virulencefinder.py -h
 ```
 ## Save
