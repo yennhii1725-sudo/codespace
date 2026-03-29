@@ -24,7 +24,7 @@ conda create -n env_qc -c bioconda -c conda-forge fastqc fastp -y
 ### Verification:
 Activate the environment and check the versions:
 ```
-conda activate QC
+conda activate env_qC
 fastp --version
 fastqc --version
 ```
@@ -41,10 +41,10 @@ conda create -n env_assembly -c bioconda -c conda-forge spades busco quast -y
 ```
 Verification:
 ```
-conda activate Assembly
+conda activate env_assembly
 spades.py --version
-busco --version
 quast.py --version
+busco --version
 ```
 
 ## Step 3: Functional Annotation (RGI & Virulence)
